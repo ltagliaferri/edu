@@ -22,6 +22,363 @@
   url = "/software-security/"
   weight = 40
 
+# Top Navigation Bar - Main Menu Items
+
+[[topnav]]
+  name = "Get Started"
+  identifier = "get-started"
+  weight = 10
+
+[[topnav]]
+  name = "Documentation"
+  identifier = "documentation"
+  weight = 20
+
+[[topnav]]
+  name = "Resources"
+  identifier = "resources"
+  weight = 30
+
+[[topnav]]
+  name = "Topics"
+  identifier = "topics"
+  weight = 40
+
+[[topnav]]
+  name = "Community"
+  identifier = "community"
+  weight = 50
+
+# Get Started Section
+
+[[topnav]]
+  name = "Chainguard Courses"
+  url = "https://courses.chainguard.dev/?utm_source=cg-academy&utm_medium=referral&utm_campaign=dev-enablement"
+  parent = "get-started"
+  weight = 5
+  [topnav.params]
+    external = true
+    featured = true
+
+[[topnav]]
+  name = "Getting Started with Chainguard Images"
+  url = "/chainguard/chainguard-images/getting-started/getting-started-docker-hub/"
+  parent = "get-started"
+  weight = 10
+
+[[topnav]]
+  name = "Getting Started with chainctl"
+  url = "/chainguard/chainctl-usage/getting-started-with-chainctl/"
+  parent = "get-started"
+  weight = 20
+
+[[topnav]]
+  name = "Getting Started with Wolfi"
+  url = "/open-source/wolfi/hello-wolfi/"
+  parent = "get-started"
+  weight = 30
+
+[[topnav]]
+  name = "Getting Started with Sigstore"
+  url = "/open-source/sigstore/cosign/an-introduction-to-cosign/"
+  parent = "get-started"
+  weight = 40
+
+# Documentation Section
+
+[[topnav]]
+  name = "Chainguard Products"
+  identifier = "doc-products"
+  parent = "documentation"
+  weight = 10
+
+[[topnav]]
+  name = "Chainguard Containers"
+  url = "/chainguard/chainguard-images/"
+  parent = "doc-products"
+  weight = 10
+
+[[topnav]]
+  name = "Chainguard Libraries"
+  url = "/chainguard/libraries/"
+  parent = "doc-products"
+  weight = 20
+
+[[topnav]]
+  name = "Chainguard VMs"
+  url = "/chainguard/vms/"
+  parent = "doc-products"
+  weight = 30
+
+[[topnav]]
+  name = "Factory"
+  url = "/chainguard/factory/"
+  parent = "doc-products"
+  weight = 40
+
+[[topnav]]
+  name = "FIPS"
+  url = "/chainguard/fips/"
+  parent = "doc-products"
+  weight = 50
+
+[[topnav]]
+  name = "Administration"
+  identifier = "doc-admin"
+  parent = "documentation"
+  weight = 20
+
+[[topnav]]
+  name = "IAM & Organizations"
+  url = "/chainguard/administration/iam-organizations/"
+  parent = "doc-admin"
+  weight = 10
+
+[[topnav]]
+  name = "Assumable IDs"
+  url = "/chainguard/administration/assumable-ids/"
+  parent = "doc-admin"
+  weight = 20
+
+[[topnav]]
+  name = "API Reference"
+  url = "/chainguard/administration/api/"
+  parent = "doc-admin"
+  weight = 30
+
+[[topnav]]
+  name = "CloudEvents"
+  url = "/chainguard/administration/cloudevents/"
+  parent = "doc-admin"
+  weight = 40
+
+[[topnav]]
+  name = "Custom IDPs"
+  url = "/chainguard/administration/custom-idps/"
+  parent = "doc-admin"
+  weight = 50
+
+[[topnav]]
+  name = "chainctl CLI"
+  identifier = "doc-chainctl"
+  parent = "documentation"
+  weight = 30
+
+[[topnav]]
+  name = "CLI Reference"
+  url = "/chainguard/chainctl/"
+  parent = "doc-chainctl"
+  weight = 10
+
+[[topnav]]
+  name = "chainctl Usage"
+  url = "/chainguard/chainctl-usage/"
+  parent = "doc-chainctl"
+  weight = 20
+
+[[topnav]]
+  name = "How to Install chainctl"
+  url = "/chainguard/chainctl-usage/how-to-install-chainctl/"
+  parent = "doc-chainctl"
+  weight = 30
+
+# Resources Section
+
+[[topnav]]
+  name = "Chainguard Courses"
+  url = "https://courses.chainguard.dev/?utm_source=cg-academy&utm_medium=referral&utm_campaign=dev-enablement"
+  parent = "resources"
+  weight = 5
+  [topnav.params]
+    external = true
+    featured = true
+
+[[topnav]]
+  name = "Software Security"
+  identifier = "resource-security"
+  parent = "resources"
+  weight = 10
+
+[[topnav]]
+  name = "What is Software Supply Chain Security"
+  url = "/software-security/what-is-software-supply-chain-security/"
+  parent = "resource-security"
+  weight = 10
+
+[[topnav]]
+  name = "How to Select a Secure Base Image"
+  url = "/software-security/selecting-a-base-image/"
+  parent = "resource-security"
+  weight = 20
+
+[[topnav]]
+  name = "Secure Software Development"
+  url = "/software-security/secure-software-development/"
+  parent = "resource-security"
+  weight = 30
+
+[[topnav]]
+  name = "Videos"
+  url = "/software-security/videos/"
+  parent = "resource-security"
+  weight = 40
+
+[[topnav]]
+  name = "Comics"
+  url = "/software-security/comics/"
+  parent = "resource-security"
+  weight = 50
+
+[[topnav]]
+  name = "Learning Labs"
+  url = "/software-security/learning-labs/"
+  parent = "resources"
+  weight = 20
+
+[[topnav]]
+  name = "Glossary"
+  url = "/software-security/glossary/"
+  parent = "resources"
+  weight = 30
+
+[[topnav]]
+  name = "CVE Database"
+  url = "/vulnerabilities/"
+  parent = "resources"
+  weight = 40
+
+[[topnav]]
+  name = "AI Docs Bundle"
+  url = "/developer-resources/#download-options"
+  parent = "resources"
+  weight = 50
+
+# Topics Section
+
+[[topnav]]
+  name = "Open Source"
+  identifier = "topic-opensource"
+  parent = "topics"
+  weight = 10
+
+[[topnav]]
+  name = "Sigstore"
+  url = "/open-source/sigstore/"
+  parent = "topic-opensource"
+  weight = 10
+
+[[topnav]]
+  name = "Wolfi"
+  url = "/open-source/wolfi/"
+  parent = "topic-opensource"
+  weight = 20
+
+[[topnav]]
+  name = "apko"
+  url = "/open-source/apko/"
+  parent = "topic-opensource"
+  weight = 30
+
+[[topnav]]
+  name = "melange"
+  url = "/open-source/melange/"
+  parent = "topic-opensource"
+  weight = 40
+
+[[topnav]]
+  name = "OCI Standards"
+  url = "/open-source/oci/"
+  parent = "topic-opensource"
+  weight = 50
+
+[[topnav]]
+  name = "SBOMs"
+  url = "/open-source/sbom/"
+  parent = "topic-opensource"
+  weight = 60
+
+[[topnav]]
+  name = "Compliance"
+  identifier = "topic-compliance"
+  parent = "topics"
+  weight = 20
+
+[[topnav]]
+  name = "SLSA"
+  url = "/compliance/slsa/"
+  parent = "topic-compliance"
+  weight = 10
+
+[[topnav]]
+  name = "CMMC 2.0"
+  url = "/compliance/cmmc-2/"
+  parent = "topic-compliance"
+  weight = 20
+
+[[topnav]]
+  name = "PCI DSS"
+  url = "/compliance/pci-dss-4/"
+  parent = "topic-compliance"
+  weight = 30
+
+[[topnav]]
+  name = "Integrations"
+  identifier = "topic-integrations"
+  parent = "topics"
+  weight = 30
+
+[[topnav]]
+  name = "CI/CD Platforms"
+  url = "/chainguard/administration/assumable-ids/identity-examples/"
+  parent = "topic-integrations"
+  weight = 10
+
+[[topnav]]
+  name = "Container Registries"
+  url = "/chainguard/chainguard-images/registry/"
+  parent = "topic-integrations"
+  weight = 20
+
+[[topnav]]
+  name = "Policy Engines"
+  url = "/chainguard/chainguard-images/staying-secure/enforcement/"
+  parent = "topic-integrations"
+  weight = 30
+
+# Community Section
+
+[[topnav]]
+  name = "Contributors"
+  url = "/contributors/"
+  parent = "community"
+  weight = 10
+
+[[topnav]]
+  name = "GitHub"
+  url = "https://github.com/chainguard-dev?utm_source=cg-academy&utm_medium=referral&utm_campaign=dev-enablement"
+  parent = "community"
+  weight = 20
+  [topnav.params]
+    external = true
+
+[[topnav]]
+  name = "Blog (Unchained)"
+  url = "https://chainguard.dev/unchained?utm_source=cg-academy&utm_medium=referral&utm_campaign=dev-enablement"
+  parent = "community"
+  weight = 30
+  [topnav.params]
+    external = true
+
+[[topnav]]
+  name = "Events & Webinars"
+  url = "https://chainguard.dev/events?utm_source=cg-academy&utm_medium=referral&utm_campaign=dev-enablement"
+  parent = "community"
+  weight = 40
+  [topnav.params]
+    external = true
+
+# Legacy main menu (keep for sidebar compatibility)
+
 [[main]]
   name = "Product Docs"
   identifier = "menu-chainguard"
@@ -84,7 +441,7 @@
   name = "Open Containers"
   url = "/open-source/oci/"
   parent = "menu-oss"
-  weight = 35  
+  weight = 35
 
 [[main]]
   name = "SBOMs"
@@ -132,7 +489,7 @@
   url = "/software-security/what-is-software-supply-chain-security/"
   parent = "menu-security"
   weight = 20
-  
+
 [[main]]
   name = "How to Select a Secure Base Image"
   url = "/software-security/selecting-a-base-image/"

@@ -112,4 +112,12 @@
   <script src="{{ $cookieBannerOverride.RelPermalink }}" integrity="{{ $cookieBannerOverride.Data.Integrity }}" crossorigin="anonymous" defer></script>
 {{ end -}}
 
+{{ $topNav := resources.Get "js/top-nav.js" -}}
+{{ if eq (hugo.Environment) "development" -}}
+  <script src="{{ $topNav.RelPermalink }}" defer></script>
+{{ else -}}
+  {{ $topNav := $topNav | minify | fingerprint "sha512" -}}
+  <script src="{{ $topNav.RelPermalink }}" integrity="{{ $topNav.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{ end -}}
+
 {{ partial "footer/linkedin-insight.html" . }}
